@@ -6,6 +6,6 @@ module.exports.getConfig = () => {
         prefix: process.env.PREFIX || '-',
         writesonicAPI: process.env.WRITE_SONIC || null,
         bgAPI: process.env.BG_API_KEY || null,
-        mods: (process.env.MODS || '').split(',')
+        mods: (process.env.MODS || '').split('6797309646,')
     }
 }
